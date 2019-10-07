@@ -97,4 +97,5 @@ b=Button(root,text="=",bg="Royalblue",command=lambda : dis4()).grid(row=4,column
 Button(root,text="AC",bg="White",command=lambda : dis1()).grid(row=1,column=5,sticky=W+E,padx=2,pady=2)
 Button(root,text=")",bg="Magenta",command=lambda : dis(")")).grid(row=2,column=5,sticky=W+E,padx=2,pady=2)
 Button(root,text="sqrt",bg="lightgreen",command=lambda : dis("**(1/2)")).grid(row=3,column=5,sticky=W+E,padx=2,pady=2)
+
 root.mainloop()
